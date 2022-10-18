@@ -7267,6 +7267,7 @@ GameObject:
   - component: {fileID: 469154327}
   - component: {fileID: 469154326}
   - component: {fileID: 469154325}
+  - component: {fileID: 469154331}
   m_Layer: 0
   m_Name: Torus
   m_TagString: Untagged
@@ -7378,6 +7379,18 @@ Transform:
   m_Father: {fileID: 1114341165}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &469154331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469154324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5acf8a9a740fe647b8987369b04c050, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &471583084
 GameObject:
   m_ObjectHideFlags: 0
@@ -14048,7 +14061,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 763389829}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
